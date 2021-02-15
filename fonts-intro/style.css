@@ -1,0 +1,14 @@
+/* загружаем фонты с гугл.фонтс */
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+div {
+  font-family: "Times New Roman", Times, serif;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 1px;
+  font-size: 15px;
+  line-height: 200%;
+}

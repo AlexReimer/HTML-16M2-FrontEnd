@@ -1,0 +1,61 @@
+body {
+    background: gray url(../img/bg-image.png);
+}
+
+img.tr-logo {
+    width: 250px;
+}
+
+table.main-table {
+    width: 1000px;
+    margin: 50px auto;  
+    text-align: center;
+    border: 1px solid black;
+}
+
+tr.top-row {
+    background-color: #b9b9b9;
+}
+
+tr.middle-row {
+    background-color: white;
+}
+
+tr.bottom-row {
+    background-color: #007700 ;
+}
+
+tr.bottom-row td img {
+    width: 150px;
+    margin: 10px auto; /* margin - отступы автоматизирует */
+}
+
+tr.middle-row {
+    width: 48%; /* 48% потому что 1px у нас бордер  */
+    text-align: left;
+}
+
+input {
+    border: 1px solid green;
+    border-radius: 5px;
+    margin: 15px auto;
+    font-size: 20px;
+    padding: 10px;
+    width: 60%;
+}
+
+ /* обращаемся к классу btn button книпки*/
+.btn {
+    background-color: #ff9900;
+    color: white;
+    width: 60%; /* 60% от "родителя"б здесь от td выше  */
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 15px auto;
+
+   
+
+
+}
